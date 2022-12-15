@@ -29,7 +29,7 @@ window.addEventListener('scroll', () =>{
 })
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbysHHEXyyLzX3B_KwMqWIAoRfNNPlkOVXN36OyDaNeqUI7LItntLW5N16dXO_T2auyDEA/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbya9zxqfiqL3zccU9Fs3mI2g_mhgzsXqbkLpA52Op0i45CNx64x8tZ8pFENeObdFRFm/exec'
 const form = document.forms['web-contact-from']
 
 const btnKirim = document.querySelector('.btn-kirim');
