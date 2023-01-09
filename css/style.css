@@ -116,11 +116,12 @@ img {
         padding-right: 16px;
         padding-left: 16px;
     }
+    
 }
 
 /* BTN */
 .btn {
-    padding: 12px 28px;
+    padding: 10px 24px;
     font-weight: 700;
 }
 
