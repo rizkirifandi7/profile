@@ -110,6 +110,10 @@ img {
     border: 8px solid var(--color-brand);
 }
 
+.img-sizes{
+    width: 100%;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 16px;
@@ -228,22 +232,13 @@ img {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    img {
+    img{
         width: 80%;
-        height: 180px;
     }
 
     .tampilan {
         justify-content: center;
         text-align: center;
+        padding-top: 10px;
     }
-  }
-
-@media only screen and (max-width: 800px) {
-    /* For mobile phones: */
-    img {
-        width: 80%;
-        height: 180px;
-    }
-
   }
