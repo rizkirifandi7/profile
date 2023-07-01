@@ -217,3 +217,33 @@ img {
     'opsz' 48,
   
 }
+
+.text{
+    color: #deff58;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    img {
+        width: 80%;
+        height: 180px;
+    }
+
+    .tampilan {
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    img {
+        width: 80%;
+        height: 180px;
+    }
+
+  }
