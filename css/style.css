@@ -41,8 +41,16 @@ a:hover {
 	color: var(--color-brand);
 }
 
-img {
+.img-profile {
+	width: 90%;
+	height: auto;
+}
+
+.img-sizes {
 	width: 100%;
+	height: 220px;
+	border: none;
+	border-radius: 25px;
 }
 
 .text-brand {
@@ -216,7 +224,7 @@ img {
 
 @media only screen and (max-width: 768px) {
 	/* For mobile phones: */
-	img {
+	.img-profile {
 		width: 80%;
 	}
 
@@ -224,5 +232,13 @@ img {
 		justify-content: center;
 		text-align: center;
 		padding-top: 10px;
+	}
+
+	.btn-brand {
+		margin-bottom: 10px;
+	}
+
+	.btn {
+		padding: 10px 12px;
 	}
 }
